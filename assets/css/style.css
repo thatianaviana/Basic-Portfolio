@@ -1,0 +1,244 @@
+body {
+    /* width: 960px; */
+    margin: 0 auto; 
+    background-color:white;
+    
+}
+header {
+    font-family: 'Georgia', 'Times, Times New Roman, serif';
+    background-color: #ffffff;
+    /* border-color: #cccccc; */
+    height: 60px;
+    width: 960px;
+    margin: 0 auto;
+    /* border-bottom: 2px solid #ccc; */
+
+}
+main {
+    background: url("https://i.imgur.com/MJAkxbh.png");
+    border-top: 2px solid #ccc;
+    padding: 20px;
+    
+}
+h2 {
+    float: left;
+    font-family: 'Georgia', 'Times, Times New Roman, serif';
+    background-color: #4aaaa5;
+    padding:17px;
+    color: white;
+    margin: 0;
+    text-align: center;
+    width: 250px;
+    height: 26px;
+
+}
+
+h3 {
+    font-family: 'Georgia', 'Times, Times New Roman, serif';
+    color:  #4aaaa5;
+    padding: 20px 0px 20px 15px;
+    border-bottom: 3px solid  #ddd;
+    font-size: 20px;
+    margin: 20px;
+}
+
+h4 {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    border: 10px;
+    padding: 15px;
+    color: #777777;
+    margin: auto;
+    font-size: 16px;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    margin: 1px;
+    padding: 0px;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 20px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    padding-left: 5px;
+    margin-left: 5px;
+    border-left: 1px solid #ccc;
+    margin-top: 20px;
+    /* border-right: 1px groove #777777; */
+}
+
+nav li:first-child {
+    border-left: none;
+}
+
+p {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    border: 10px;
+    padding: 15px;
+    color: #777777;
+    margin: auto;
+    font-size: 16px;
+}
+
+img {
+    width: 200px;
+    height: auto;
+    margin-top: 10px;
+    float: left;
+    margin-right: 25px;
+    margin-left: 15px;
+}
+
+.about {
+    background-color: #ffffff;
+    width: 960px;
+    margin: 0 auto;
+    /* border: 1px solid grey; */
+}   
+.contact {
+    background-color: #ffffff;
+    width: 960px;
+    margin: 0 auto;
+    /* border: 1px solid grey; */
+
+}
+
+.portfolio {
+    background-color: #ffffff;
+    width: 960px;
+    margin: 0 auto;
+    /* border: 1px solid grey; */
+
+}
+
+a {
+    color: #777777;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 16px;
+}
+
+footer {
+    background-color: #666666;
+    text-align: center;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    width: 100%;
+    padding: 25px 0;
+    border-top: 8px solid #4aaaa5;
+    color: #777777;
+}
+
+#contact {
+margin-bottom: 10px;
+}
+
+#contact-form li {
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+input {
+    width: 870px;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid #ccc;
+}
+
+ form li {
+     font-size: 16px;
+     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+     color: #777777;
+ }
+
+ #message {
+     display: block;
+     width: 880px;
+     border: 1px solid #ccc;
+     margin-left: 4px;
+     height: 200px;  
+ }
+
+ #button {
+    background-color: #4aaaa5;
+    color:  #ffffff;
+    font-size: 16px;
+    padding: 10px;   
+    margin: 10px;
+    text-align: center;
+    width: 100px;
+    margin-left: 40px;
+}
+
+.projects {
+    width: 200px;
+    margin: 15px;
+    padding: 20px;
+    float: left;
+    border: 30px;
+    position: relative;
+}
+
+.work h3 {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    position: absolute;
+    top: 70%;
+    width: 100%;
+    font-size: 16px;
+
+}
+.image {
+    background-size: 200px;
+    width: 200px;
+    height: 124px;
+    list-style-type: none;
+    margin-right: 60px;
+    margin-bottom: 60px;
+    border: 10px
+}
+.caption {
+    text-align: center;
+    width: 100%;
+    line-height: 2;
+    background-color: #4aaaa5;
+    z-index: 1;
+    margin-top: 20px;
+    color: #ffffff;
+    padding: 20px;
+    margin-left: 42px;
+    border: 30px;
+}
+
+
+/* .vl {
+    border-left: 1px solid  #777777;
+    height: 15px;
+} */
+
+/* .navbar {
+    width: 80%;
+    margin: 0 auto;
+} */
+
+/* textarea{
+    width: 930px;
+    padding: 5px;
+    margin: 5px;
+    height: 170px;
+
+} */
+
+/* img {
+    float: left;
+    margin: 0px 15px 15px 0px;
+    padding: 20px;
+    border: 10px 5px 0px 10px;
+
+} */
